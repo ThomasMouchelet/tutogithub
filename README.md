@@ -57,6 +57,3 @@ Il est préférable de créer une nouvelle branch
 **Etape 4**
 
 Cliquez sur le bouton **Create pull request** dans votre compte github.
-
-
-blabla
