@@ -52,7 +52,15 @@ Il est préférable de créer une nouvelle branch
     git checkout -b feature
     git add *
     git commit -m "My comment"
-    git push origin master
+    git push origin feature
+
+Ajouter le remote upstream en cas de modification sur le ripo master
+
+    git remote add upstream https://github.com/elodidu33/test.git
+
+    git fetch upstream
+
+    git pull
 
 **Etape 4**
 
