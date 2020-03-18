@@ -43,6 +43,14 @@ Clonez le projet
 
     git clone https://github.com/ThomasMouchelet/tutogithub.git
 
+Ajouter le remote upstream en cas de modification sur le ripo master
+
+    git remote add upstream https://github.com/elodidu33/test.git
+
+    git fetch upstream
+
+    git pull
+
 Editez le fichier
 
 **Etape 3**
@@ -53,14 +61,6 @@ Il est préférable de créer une nouvelle branch
     git add *
     git commit -m "My comment"
     git push origin feature
-
-Ajouter le remote upstream en cas de modification sur le ripo master
-
-    git remote add upstream https://github.com/elodidu33/test.git
-
-    git fetch upstream
-
-    git pull
 
 **Etape 4**
 
